@@ -168,7 +168,7 @@
     "core-util-is": "^1.0.2",
     "cookie-signature": "^1.0.6",
     "create-error-class": "^3.0.2",
-    "core-js": "^2.5.7",
+    "core-js": "^3.0.0",
     "crowdin-cli": "^0.3.0",
     "cross-spawn": "^6.0.5",
     "css-color-names": "^1.0.0",
