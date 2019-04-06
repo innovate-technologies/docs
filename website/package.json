@@ -286,7 +286,7 @@
     "har-schema": "^2.0.0",
     "gifsicle": "^4.0.0",
     "has": "^1.0.1",
-    "has-flag": "^3.0.0",
+    "has-flag": "^4.0.0",
     "has-ansi": "^3.0.0",
     "has-gulplog": "^0.1.0",
     "home-or-tmp": "^3.0.0",
