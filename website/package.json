@@ -598,7 +598,7 @@
     "through2-filter": "^3.0.0",
     "temp-dir": "^2.0.0",
     "timed-out": "^4.0.1",
-    "tempfile": "^2.0.0",
+    "tempfile": "^3.0.0",
     "to-absolute-glob": "^2.0.2",
     "time-stamp": "^2.0.1",
     "to-buffer": "^1.1.1",
