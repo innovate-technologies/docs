@@ -558,7 +558,7 @@
     "shebang-regex": "^3.0.0",
     "shelljs": "^0.8.2",
     "signal-exit": "^3.0.2",
-    "slash": "^2.0.0",
+    "slash": "^3.0.0",
     "simple-swizzle": "^0.2.2",
     "sitemap": "^2.0.1",
     "source-map": "^0.7.3",
