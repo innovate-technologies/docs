@@ -610,7 +610,7 @@
     "trim-repeated": "^1.0.0",
     "tough-cookie": "^3.0.0",
     "trim-right": "^1.0.1",
-    "trim-newlines": "^2.0.0",
+    "trim-newlines": "^3.0.0",
     "tunnel-agent": "^0.6.0",
     "tweetnacl": "^1.0.0",
     "type-is": "^1.6.16",
