@@ -48,6 +48,10 @@ If you want to remove your card (or cancel your direct debit) you can do this in
 
 ![screenshot of card page](https://images.shoutca.st/Screenshot%20from%202018-07-30%2009-55-15.png)
 
+## Why do I get a captcha challange page?
+
+On advice of our credit card processor all our credit card pages are protected with an extra captcha challange. This is in order to prevent automaded credit card fraud.
+
 ## Can I pay with X?
 
 We already offer a lot of different payment methods which are accessible to most, if not all people. We probably won't add any more unless there is a big demand, as adding new payment methods costs money and time to us.
