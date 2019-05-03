@@ -548,7 +548,7 @@
     "semver-regex": "^3.0.0",
     "semver": "^6.0.0",
     "semver-truncate": "^2.0.0",
-    "send": "^0.16.2",
+    "send": "^0.17.0",
     "set-immediate-shim": "^2.0.0",
     "serve-static": "^1.13.2",
     "set-getter": "^0.1.0",
