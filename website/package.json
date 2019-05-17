@@ -164,7 +164,7 @@
     "convert-source-map": "^1.5.1",
     "continuable-cache": "^0.3.1",
     "content-type": "^1.0.4",
-    "cookie": "^0.3.1",
+    "cookie": "^0.4.0",
     "core-util-is": "^1.0.2",
     "cookie-signature": "^1.0.6",
     "create-error-class": "^3.0.2",
