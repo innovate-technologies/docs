@@ -80,6 +80,14 @@ Here you can ban a single IP or a whole subnet.
 
 > Be careful not to ban the localhost or the server's own IP. This could result in Centova Cast breaking.
 
+## How to Block facebookexternalhit
+Facebook's system will visit all links posted/sent on their platform to gather extra info. In SHOUTcast this behaviour can be problematic as it will send the stream. You can fix this by blocking this tn [the DNAS admin](https://docs.shoutca.st/docs/cc-SHOUTcast-FAQ.html#can-i-access-my-shoutcast-server-s-administrator-summary). In the top menu select "User Agent List".
+![SHOUTcast DNAS menu](https://images.shoutca.st/Screenshot%20from%202018-07-30%2015-13-08.png).
+Under "Block User Agent" enter `facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)` and save it.
+![The blocked user agent in the list](https://images.shoutca.st/Screenshot%20from%202019-06-06%2009-50-52.png)
+
+This will apply to all new connections, should you have some already in your listeners list you can remove them by restarting the server.
+
 ## Why does my server says SHOUTcast v1?
 
 If you have ordered SHOUTcast v2 (v1 is not being sold anymore) and under Quick Links you see v1 you still have v2. The reason you see v1 thee is because most connections you connect to the AutoDJ so it can shut itself down when you are live. The AutoDJ doesn't support the SHOUTcast v2 protocol. That is why you will see v1 there.
