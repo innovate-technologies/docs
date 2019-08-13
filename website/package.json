@@ -291,7 +291,7 @@
     "has-gulplog": "^0.1.0",
     "home-or-tmp": "^3.0.0",
     "highlight.js": "^9.12.0",
-    "hosted-git-info": "^2.6.0",
+    "hosted-git-info": "^3.0.0",
     "html-comment-regex": "^1.1.1",
     "http-errors": "^1.6.3",
     "http-parser-js": "^0.5.0",
