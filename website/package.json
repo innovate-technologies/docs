@@ -538,7 +538,7 @@
     "repeating": "^3.0.0",
     "replace-ext": "^1.0.0",
     "safe-buffer": "^5.1.2",
-    "rimraf": "^2.6.2",
+    "rimraf": "^3.0.0",
     "request": "^2.87.0",
     "resolve": "^1.7.1",
     "seek-bzip": "^1.0.5",
