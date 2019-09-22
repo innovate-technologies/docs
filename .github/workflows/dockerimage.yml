@@ -1,0 +1,32 @@
+name: Docker Image CI
+
+on: [push,pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        arch:
+          - amd64
+          - armhf
+          - arm64
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install qemu
+      run: docker run --rm --privileged multiarch/qemu-user-static:register
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --build-arg ARCH=${ARCH} --tag innovate/docs:$ARCH-latest
+      env:
+        ARCH: ${{ matrix.arch }}
+    - name: Docker login
+      if: github.event_name == 'push' && github.event.branch == 'master'
+      run: echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
+    - name: Docker push master
+      if: github.event_name == 'push' && github.event.branch == 'master'
+      run: |
+        docker tag innovate/docs/$ARCH:latest innovate/docs:$ARCH-$GITHUB_SHA
+        docker push innovate/docs:$ARCH-latest
+        docker push innovate/cast:$ARCH-$GITHUB_SHA
+      env:
+        ARCH: ${{ matrix.arch }}
