@@ -13,9 +13,9 @@ jobs:
           - arm64
     steps:
     - name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
+      env:
+        GITHUB_CONTEXT: ${{ toJson(github) }}
+      run: echo "$GITHUB_CONTEXT"
     - uses: actions/checkout@v1
     - name: Install qemu
       run: docker run --rm --privileged multiarch/qemu-user-static:register
