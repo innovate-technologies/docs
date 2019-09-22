@@ -30,3 +30,10 @@ jobs:
         docker push innovate/cast:$ARCH-$GITHUB_SHA
       env:
         ARCH: ${{ matrix.arch }}
+  publish:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+    - name: Call Helmet
+      if: github.event_name == 'push' && github.event.branch == 'master'
+      run: curl -k -X PUT -H "Authorization: Bearer ${{secrets.HELMET_KEY}}" https://docs-controller.innovatete.ch/deployment/$GITHUB_SHA; fi'
