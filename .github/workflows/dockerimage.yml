@@ -12,10 +12,6 @@ jobs:
           - armhf
           - arm64
     steps:
-    - name: Dump GitHub context
-      env:
-        GITHUB_CONTEXT: ${{ toJson(github) }}
-      run: echo "$GITHUB_CONTEXT"
     - uses: actions/checkout@v1
     - name: Install qemu
       run: docker run --rm --privileged multiarch/qemu-user-static:register
@@ -24,10 +20,10 @@ jobs:
       env:
         ARCH: ${{ matrix.arch }}
     - name: Docker login
-      if: github.event_name == 'push' && github.ref== 'master'
+      if: github.event_name == 'push' && github.ref== 'refs/heads/master'
       run: echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
     - name: Docker push master
-      if: github.event_name == 'push' && github.event.branch == 'master'
+      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
       run: |
         docker tag innovate/docs/$ARCH:latest innovate/docs:$ARCH-$GITHUB_SHA
         docker push innovate/docs:$ARCH-latest
@@ -39,7 +35,7 @@ jobs:
     needs: build
     steps:
     - name: Call Helmet
-      if: github.event_name == 'push' && github.ref == 'master'
+      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
       run: |
         curl -k -X PUT -H "Authorization: Bearer $HELMET_KEY" https://docs-controller.innovatete.ch/deployment/$GITHUB_SHA
       env:
