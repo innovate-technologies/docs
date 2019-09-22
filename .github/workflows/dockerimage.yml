@@ -36,4 +36,7 @@ jobs:
     steps:
     - name: Call Helmet
       if: github.event_name == 'push' && github.event.branch == 'master'
-      run: curl -k -X PUT -H "Authorization: Bearer ${{secrets.HELMET_KEY}}" https://docs-controller.innovatete.ch/deployment/$GITHUB_SHA
+      run: |
+        curl -k -X PUT -H "Authorization: Bearer $HELMET_KEY" https://docs-controller.innovatete.ch/deployment/$GITHUB_SHA
+      env:
+        HELMET_KEY: ${{ secrets.HELMET_KEY }}
