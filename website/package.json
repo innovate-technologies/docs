@@ -143,7 +143,7 @@
     "caniuse-lite": "^1.0.30000846",
     "caseless": "^0.12.0",
     "clone": "^2.1.2",
-    "clap": "^1.2.3",
+    "clap": "^2.0.0",
     "classnames": "^2.2.5",
     "clone-stats": "^1.0.0",
     "color-convert": "^2.0.0",
