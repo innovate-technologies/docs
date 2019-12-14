@@ -546,7 +546,7 @@
     "safer-buffer": "^2.1.2",
     "sax": "^1.2.4",
     "semver-regex": "^3.0.0",
-    "semver": "^6.0.0",
+    "semver": "^7.0.0",
     "semver-truncate": "^2.0.0",
     "send": "^0.17.0",
     "set-immediate-shim": "^2.0.0",
