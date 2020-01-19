@@ -28,7 +28,7 @@ To improve our service we politely ask you to describe why you want to cancel ou
 ## How do you guarantee my account is on the best server? 
 
 ### Centova Cast
-Our monitoring system keeps track of all resources used on all servers. A few days a day an automated system will pull the server usage of the past days and runs a series of formulas to come to the remaining account capacity per server. This gets directly and automatically comminucated to our billing system which wil use these numbers to assign new orders to the best possible server.
+Our monitoring system keeps track of all resources used on all servers. A few days a week an automated system will pull the server usage of the past days and runs a series of formulas to calculate the remaining account capacity per server. This gets directly and automatically comminucated to our billing system which wil use these numbers to assign new orders to the best possible server.
 
 ### Cast
 Cast goes a step beyond what we have done in Centova Cast. Cast is powered by modern cloud utilities, Cast is also designed to be easy to migrate to other physical servers without losing info or having to change links/ports/... This for example is used when a physical server goes down, when this happens your Cast instance will get migrated to an available server to get you back on air as fast as possible. Cast instances also get assigned a set of dedicated server resources which are enforced. Cast instances also get assigned to a physical server with the most available resources. When you update to a new version it will do the re-assign your instance to make sure you have the best possible experience. You can also trigger this process manually should you experience issues.
