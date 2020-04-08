@@ -360,7 +360,7 @@
     "js-base64": "^2.4.5",
     "jsbn": "^1.1.0",
     "js-yaml": "^3.11.0",
-    "jsesc": "^2.5.1",
+    "jsesc": "^3.0.0",
     "json-schema": "^0.2.3",
     "json-schema-traverse": "^0.4.1",
     "json-stable-stringify": "^1.0.1",
