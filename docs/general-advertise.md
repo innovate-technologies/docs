@@ -49,3 +49,7 @@ Here is a small list of radio directories we've found (own one yourself? Feel fr
 * http://vradio.org
 * http://radiotoplist.com
 * http://broadcastingworld.com/stations/add/
+
+## I haven't got time to submit myself to all of these!
+
+No problem, we know it's quite a task to submit yourself to all of these directories, so we offer a service that will allow you to sit back and relax as we do it for you. Interested? Take a look [here](https://my.shoutca.st/cart.php?gid=15)!
