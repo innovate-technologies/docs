@@ -274,7 +274,7 @@
     "globby": "^11.0.0",
     "glogg": "^1.0.1",
     "globule": "^1.2.0",
-    "got": "^10.0.0",
+    "got": "^11.0.0",
     "graceful-fs": "^4.1.11",
     "graceful-readlink": "^1.0.1",
     "gulp-decompress": "^3.0.0",
