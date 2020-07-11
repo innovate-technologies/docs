@@ -402,7 +402,7 @@
     "lowercase-keys": "^2.0.0",
     "loud-rejection": "^2.0.0",
     "lpad-align": "^2.0.0",
-    "lru-cache": "^5.0.0",
+    "lru-cache": "^6.0.0",
     "make-dir": "^3.0.0",
     "map-obj": "^4.0.0",
     "markdown-link": "^0.1.1",
