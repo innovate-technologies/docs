@@ -9,7 +9,7 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'SHOUTca.st Docs' /* title for your website */,
+  title: 'Docs (deprecated)' /* title for your website */,
   tagline: '',
   url: 'https://docs.shoutca.st' /* your website url */,
   baseUrl: '/' /* base url for your project */,
@@ -23,11 +23,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {href: 'https://shoutca.st', label: 'Home'},
-    {doc: 'general-Getting-Started-with-Internet-Radio', label: 'General'},
-    {doc: 'cast-About', label: 'Cast'},
-    {doc: 'control-Logging-in', label: 'Control'},
-    {doc: 'cc-Centova-FAQ', label: 'Centova Cast'},
+    {href: 'https://help.shoutca.st', label: 'Docs is deprecated, click here for our new Help Centre'},
   ],
 
   stylesheets: ["/css/custom.css"],
