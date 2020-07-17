@@ -79,11 +79,11 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <div className="inner">
           <ProjectTitle />
-          <MarkdownBlock>Welcome to SHOUTca.st's Documentation!</MarkdownBlock>
-          <MarkdownBlock>Here, you'll find comprehensive guides and documentation to help you with SHOUTca.st services as quickly as possible. Let's jump right in!</MarkdownBlock>
+          <MarkdownBlock>Docs has been deprecated.</MarkdownBlock>
+          <MarkdownBlock>You'll find loads of up-to-date help and information at our new Help Centre.</MarkdownBlock>
           <PromoSection>
-            <Button href={docUrl('general-Getting-Started-with-Internet-Radio.html', language)}>Get Started</Button>
-            <Button href={docUrl('cc-Getting-Started.html', language)}>Centova Cast</Button>
+            <Button href='https://help.shoutca.st/'>Take me there!</Button>
+            <Button href={docUrl('general-Getting-Started-with-Internet-Radio.html', language)}>Legacy documentation</Button>
             <Button href={docUrl('cast-About.html', language)}>Cast</Button>
             </PromoSection>
         </div>
