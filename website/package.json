@@ -331,7 +331,7 @@
     "is-natural-number": "^4.0.1",
     "is-number": "^7.0.0",
     "is-obj": "^2.0.0",
-    "is-plain-object": "^3.0.0",
+    "is-plain-object": "^4.0.0",
     "is-plain-obj": "^2.0.0",
     "is-png": "^2.0.0",
     "is-posix-bracket": "^0.1.1",
