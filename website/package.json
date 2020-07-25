@@ -620,7 +620,7 @@
     "underscore.string": "^3.3.4",
     "unique-stream": "^2.2.1",
     "uniq": "^1.0.1",
-    "universalify": "^1.0.0",
+    "universalify": "^2.0.0",
     "uniqs": "^2.0.0",
     "unzip-response": "^3.0.0",
     "url-parse-lax": "^4.0.0",
