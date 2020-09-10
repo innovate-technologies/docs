@@ -654,7 +654,7 @@
     "yauzl": "^2.9.1",
     "yallist": "^4.0.0",
     "yamljs": "^0.3.0",
-    "yargs": "^15.0.1"
+    "yargs": "^16.0.2"
   },
   "author": "",
   "license": "ISC",
