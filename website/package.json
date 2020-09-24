@@ -351,7 +351,7 @@
     "isarray": "^2.0.4",
     "is2": "^2.0.1",
     "is-zip": "^1.0.0",
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "isobject": "^4.0.0",
     "isexe": "^2.0.0",
     "jpegtran-bin": "^5.0.0",
