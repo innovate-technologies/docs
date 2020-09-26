@@ -183,7 +183,7 @@
     "currently-unhandled": "^0.4.1",
     "debug": "^4.0.0",
     "decompress": "^4.2.0",
-    "dashdash": "^1.14.1",
+    "dashdash": "^2.0.0",
     "decompress-tar": "^4.1.1",
     "decompress-tarbz2": "^4.1.1",
     "decamelize": "^4.0.0",
