@@ -121,7 +121,7 @@
     "bin-version-check": "^4.0.0",
     "body": "^5.1.0",
     "braces": "^3.0.0",
-    "brace-expansion": "^1.1.11",
+    "brace-expansion": "^2.0.0",
     "buffer-alloc-unsafe": "^1.1.0",
     "buffer-alloc": "^1.1.0",
     "boolbase": "^1.0.0",
