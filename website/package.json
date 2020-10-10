@@ -603,7 +603,7 @@
     "time-stamp": "^2.0.1",
     "to-buffer": "^1.1.1",
     "to-fast-properties": "^3.0.0",
-    "tiny-lr": "^1.1.1",
+    "tiny-lr": "^2.0.0",
     "tree-node-cli": "^1.2.1",
     "to-object-path": "^0.3.0",
     "toml": "^3.0.0",
