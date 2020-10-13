@@ -332,7 +332,7 @@
     "is-number": "^7.0.0",
     "is-obj": "^2.0.0",
     "is-plain-object": "^5.0.0",
-    "is-plain-obj": "^2.0.0",
+    "is-plain-obj": "^3.0.0",
     "is-png": "^2.0.0",
     "is-posix-bracket": "^0.1.1",
     "is-primitive": "^3.0.1",
