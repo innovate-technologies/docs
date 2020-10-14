@@ -175,7 +175,7 @@
     "css-select-base-adapter": "^0.1.0",
     "css-tree": "^1.0.0-alpha25",
     "css-url-regex": "^3.3.0",
-    "css-what": "^3.0.2",
+    "css-what": "^4.0.0",
     "css-select": "^3.0.1",
     "cssnano": "^4.0.4",
     "csso": "^4.0.0",
