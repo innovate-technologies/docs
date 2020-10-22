@@ -515,7 +515,7 @@
     "range-parser": "^1.2.0",
     "raw-body": "^2.3.2",
     "read-all-stream": "^3.1.0",
-    "react-dom": "^16.4.0",
+    "react-dom": "^17.0.0",
     "react": "^17.0.0",
     "read-pkg": "^5.0.0",
     "readable-stream": "^3.0.2",
