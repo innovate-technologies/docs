@@ -411,7 +411,7 @@
     "math-random": "^2.0.0",
     "mdn-data": "^2.0.0",
     "media-typer": "^1.0.0",
-    "meow": "^7.0.0",
+    "meow": "^8.0.0",
     "merge-descriptors": "^1.0.1",
     "merge-stream": "^2.0.0",
     "micromatch": "^4.0.0",
