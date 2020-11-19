@@ -179,7 +179,7 @@
     "css-select": "^3.0.1",
     "cssnano": "^4.0.4",
     "csso": "^4.0.0",
-    "dateformat": "^3.0.3",
+    "dateformat": "^4.0.0",
     "currently-unhandled": "^0.4.1",
     "debug": "^4.0.0",
     "decompress": "^4.2.0",
