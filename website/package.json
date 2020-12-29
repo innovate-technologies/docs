@@ -245,7 +245,7 @@
     "feed": "^4.0.0",
     "filenamify": "^4.0.0",
     "fill-range": "^7.0.0",
-    "find-versions": "^3.0.0",
+    "find-versions": "^4.0.0",
     "find-up": "^5.0.0",
     "finalhandler": "^1.1.1",
     "for-own": "^1.0.0",
