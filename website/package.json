@@ -519,7 +519,7 @@
     "react": "^17.0.0",
     "read-pkg": "^6.0.0",
     "readable-stream": "^3.0.2",
-    "read-pkg-up": "^7.0.0",
+    "read-pkg-up": "^8.0.0",
     "rechoir": "^0.7.0",
     "redent": "^3.0.0",
     "reduce-css-calc": "^2.1.4",
