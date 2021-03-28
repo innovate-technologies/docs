@@ -517,7 +517,7 @@
     "read-all-stream": "^3.1.0",
     "react-dom": "^17.0.0",
     "react": "^17.0.0",
-    "read-pkg": "^5.0.0",
+    "read-pkg": "^6.0.0",
     "readable-stream": "^3.0.2",
     "read-pkg-up": "^7.0.0",
     "rechoir": "^0.7.0",
