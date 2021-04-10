@@ -484,7 +484,7 @@
     "postcss-message-helpers": "^2.0.0",
     "postcss-minify-gradients": "^4.0.0",
     "postcss-minify-font-values": "^5.0.0",
-    "postcss-minify-params": "^4.0.0",
+    "postcss-minify-params": "^5.0.0",
     "postcss-minify-selectors": "^4.0.0",
     "postcss-normalize-charset": "^4.0.0",
     "postcss-normalize-url": "^4.0.0",
