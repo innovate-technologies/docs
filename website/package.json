@@ -486,7 +486,7 @@
     "postcss-minify-font-values": "^4.0.0",
     "postcss-minify-params": "^4.0.0",
     "postcss-minify-selectors": "^4.0.0",
-    "postcss-normalize-charset": "^4.0.0",
+    "postcss-normalize-charset": "^5.0.0",
     "postcss-normalize-url": "^4.0.0",
     "postcss-ordered-values": "^4.0.0",
     "postcss-reduce-idents": "^5.0.0",
