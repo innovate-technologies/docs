@@ -473,7 +473,7 @@
     "p-finally": "^3.0.0",
     "postcss-convert-values": "^4.0.0",
     "postcss-discard-comments": "^4.0.0",
-    "postcss-discard-duplicates": "^4.0.0",
+    "postcss-discard-duplicates": "^5.0.0",
     "postcss-discard-empty": "^4.0.0",
     "postcss-calc": "^8.0.0",
     "postcss-discard-unused": "^4.0.0",
